@@ -1,0 +1,177 @@
+
+/* Headear Section */
+
+header {
+  position: fixed;
+  width: 100%;
+  border-bottom: 1px solid black;
+  z-index: 1;
+  display: flex;
+  font-family: Verdana, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: #FFF;
+  align-items: center;
+  height: 80px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+  flex-grow: 1;
+}
+
+header img {
+  margin-right: 12px;
+  width: 70px;
+  height: 60px;
+}
+
+header nav {
+  padding-right: 40px;
+}
+
+/* Common stylesheet */
+
+body {
+  color: black;
+  margin: 0;
+  font-size: 17px;
+  font-family: Georgia, sans-serif;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+a {
+  color: black;
+}
+
+/* Footer Section */
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: MediumAquamarine;
+  font-family: Verdana, sans-serif;
+  font-size: 12px;
+  width: 100%;
+  height: 325px;
+}
+
+footer nav {
+  padding-left: 20px;
+  display: inline-block;
+}
+
+
+footer .title {
+  display: inline-block;
+  border-right: 2px solid white;
+  font-weight: bold;
+  font-size: 16px;
+  font-family: Georgia;
+  color: #FFF;
+  padding-right: 13px;
+}
+
+/* Main Content Section */
+
+.content {
+  display: flex;
+  width: 1232px;
+  padding-top: 116px;
+  margin: 0 auto 78px auto;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
+}
+
+.large.column {
+  width: 630px;
+}
+
+.middle.column {
+  width: 300px;
+}
+
+.small.column {
+  width: 240px;
+}
+
+.image-content {
+  display: flex;
+  flow-direction: column;
+  color: #FFF;
+  font-size: 30px;
+  font-weight: bold;
+  height: 300px;
+  align-items: center;
+  text-align: center;
+}
+
+.story {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.stories {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 17px;
+}
+
+.cat-ceo.image-content {
+  background-image: url("../images/img-story-1.png");
+}
+
+.fall-cancelled.image-content {
+  background-image: url("../images/img-story-2.png");
+}
+
+.pop-culture.image-content {
+  background-image: url("../images/img-story-3.png")
+}
+
+.lead-story .image-content {
+  background-image: url("../images/img-story-main.png");
+  width: 630px;
+  text-align: left;
+  margin-top: 0;
+  font-size: 40px;
+}
+
+.lead-story .image-content span {
+  margin-left: 20px;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-style: normal;
+}
+
+/* Content-section | Small Section  */
+
+.bite {
+  background-color: lightgrey;
+  border-bottom: 1px solid black;
+  display: block;
+  font-size: 12px;
+  padding: 10px;
+}
+
+h3 {
+  text-align: center;
+}
