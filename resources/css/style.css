@@ -165,11 +165,13 @@ h2 {
 /* Content-section | Small Section  */
 
 .bite {
-  background-color: lightgrey;
+  background-color: whitesmoke;
   border-bottom: 1px solid black;
   display: block;
   font-size: 12px;
-  padding: 10px;
+  padding: 11px 20px;
+  font-family: Verdana, cursive;
+  color: dimgray;
 }
 
 h3 {
